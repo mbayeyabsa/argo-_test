@@ -13,11 +13,11 @@ spec:
     server: https://kubernetes.default.svc
     namespace: myapp
 
-  SyncPolicy:
-    SyncOptions:
+  syncPolicy:
+    syncOptions:
     - createNamespace=true
     
-    Automated:
+    automated:
       selHeal: true
       prune: true  
 
