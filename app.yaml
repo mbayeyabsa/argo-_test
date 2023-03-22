@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/mbayeyabsa/argo-_test.git
     targetRevision: HEAD
-    #path: guestbook
+    path:
   destination:
     server: https://kubernetes.default.svc
     namespace: myapp
