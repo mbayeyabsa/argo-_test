@@ -3,7 +3,7 @@ kind: Service
 metadata:
   labels:
     app: nginx_svc
-  name: nginx_svc
+  name: nginx
 spec:
   ports:
   - name: "8080"
